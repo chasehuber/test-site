@@ -1,0 +1,27 @@
+#reg-lobby {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+#lob1 {
+    width: 50%;
+}
+
+#scary-lobby {
+    display: none;
+    justify-content: center;
+}
+
+#lob2 {
+    width: 50%;
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
