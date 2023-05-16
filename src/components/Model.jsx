@@ -7,7 +7,7 @@ import { useGLTF } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
 
 export function Model(props) {
-  const { nodes, materials } = useGLTF("./src/assets/Lobster.gltf");
+  const { nodes, materials } = useGLTF("/Lobster.gltf");
   const myMesh = useRef();
 
   useFrame((state, delta) => (myMesh.current.rotation.x += delta));
