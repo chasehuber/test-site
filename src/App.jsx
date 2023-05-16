@@ -1,5 +1,4 @@
 import { Canvas, useLoader } from '@react-three/fiber'
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader'
 import { OrbitControls } from '@react-three/drei'
 import Box from './components/Box'
 import { Model } from './components/Model'
